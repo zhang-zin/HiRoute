@@ -1,29 +1,26 @@
 {
-  "selectTab" : 0,
+  "selectTab": 0,
   "tabs": [
     {
-      "size": 24
+      "size": 24,
+      "enable": true,
+      "index": 0,
+      "pageUrl": "main/tabs/home",
+      "title": "Home"
+    },
+    {
+      "size": 24,
+      "enable": true,
+      "index": 1,
+      "pageUrl": "main/tabs/dashboard",
+      "title": "Dashboard"
+    },
+    {
+      "size": 40,
+      "enable": true,
+      "index": 2,
+      "pageUrl": "main/tabs/notifications",
+      "title": "Notifications"
     }
-  ],
-  "main/tabs/dashboard": {
-    "asStarter": false,
-    "className": "com.zj.hiroute.ui.dashboard.DashboardFragment",
-    "pageUrl": "main/tabs/dashboard",
-    "id": 160002873,
-    "destType": "fragment"
-  },
-  "main/tabs/home": {
-    "asStarter": true,
-    "className": "com.zj.hiroute.ui.home.HomeFragment",
-    "pageUrl": "main/tabs/home",
-    "id": 807054821,
-    "destType": "fragment"
-  },
-  "main/tabs/notifications": {
-    "asStarter": false,
-    "className": "com.zj.hiroute.ui.notifications.NotificationsFragment",
-    "pageUrl": "main/tabs/notifications",
-    "id": 872540561,
-    "destType": "fragment"
-  }
+  ]
 }

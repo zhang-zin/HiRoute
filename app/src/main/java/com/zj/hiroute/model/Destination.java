@@ -9,7 +9,7 @@ public class Destination {
      * pageUrl: main/tabs/dashboard,
      * destType : fragment
      */
-    public Boolean asStarter; // 是否作为路由的第一个启动页
+    public boolean asStarter; // 是否作为路由的第一个启动页
     public String className;  // 全类名
     public int id;            // 路由节点（页面）id
     public String pageUrl;    // 路由节点url
