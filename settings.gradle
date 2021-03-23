@@ -1,0 +1,4 @@
+include ':nav-compiler'
+include ':nav-annotations'
+include ':app'
+rootProject.name = "HiRoute"
